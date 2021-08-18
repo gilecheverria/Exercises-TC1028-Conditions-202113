@@ -20,21 +20,21 @@ if __name__ == '__main__':
 
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
-## Definición del problema  
+## Definición del problema
 
 Realiza un programa que muestre el mayor de 3 números enteros x, y, z proporcionados por el usuario.
 
 **NOTA:** NO puedes utilizar la función incorporada de Python: max(), debes hacerlo con condicionales.
 
-**Entradas**  
+**Entradas**
 El programa va a preguntar por tres **números enteros** uno en cada renglón.
 
-**Salidas**  
+**Salidas**
 El mayor de los tres números dados por el usuario.
- 
-## Ejemplos  
 
-Ejemplo 1    
+## Ejemplos
+
+Ejemplo 1
 
 ```plaintext
 Ingresa el primer número: 5
@@ -55,5 +55,6 @@ Ingresa el tercer número: 12
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest --tb=short`,
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
 subela a tu repositorio en GitHub, con el proceso de commit + push.

@@ -33,7 +33,7 @@ Las reglas del juego son las siguientes:
 - Dos caracteres (a, p o t), cada uno en un renglón y representan la tirada de Ana y Juan, en ese orden.
 
 **Salida**
-- Mensaje de quien es el ganador en el siguiente formato: `"Gana Ana"` o `"Gana Juan"` o `"Empate"`. 
+- Mensaje de quien es el ganador en el siguiente formato: `"Gana Ana"` o `"Gana Juan"` o `"Empate"`.
 - En el caso de que ingresen algún string de más de un caracter se debe desplegar el siguiente mensaje `"Las tiradas deben ser un caracter"`, si son de un sólo caracter pero alguna de ellas no corresponde a un caracter válido, el mensaje a desplegar es `"Tirada incorrecta"`.
 
 Estos son algunos ejemplos de ejecución del programa. La salida del programa debe de ser exactamente de la siguiente forma:
@@ -64,5 +64,6 @@ Tirada incorrecta
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest` o `pytest --tb=short`,
-súbela a tu repositorio en GitHub, con el proceso de `commit + push`.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

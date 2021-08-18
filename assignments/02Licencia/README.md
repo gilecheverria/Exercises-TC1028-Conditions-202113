@@ -11,7 +11,7 @@ def main():
     # Escribe el código adecuado para completar el programa
     # Para pedir el dato de la idetificación oficial emplea este mensaje:
     # "¿Tienes identificación oficial? (s/n): "
-    
+
 
 
 if __name__ == '__main__':
@@ -20,22 +20,27 @@ if __name__ == '__main__':
 
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
-## Definición del problema  
+## Definición del problema
 Una persona puede obtener su licencia de manejo si es mayor de edad y tiene identificación oficial.
 
 Escribe un programa en Python que lea la edad de una persona y si tiene (s/n) identificación oficial.
 
 De salida debe mostrar Si  puede obtener su licencia o No la puede obtener.
 
-**Entradas**  
-El programa va a preguntar por la edad de la persona, debe ser un entero positivo.
+**Entradas**
+El programa va a preguntar por:
+- la edad de la persona, debe ser un entero positivo.
+- si tiene identificación o no. Debe ser un string, que contenga las letras "s" o "n"
 
-**Salidas**  
-Añade el código necesario para que el programa imprima **Trámite de licencia concedido** si la edad es mayor o igual a 18 y tiene identificación oficial, o que imprima **No cumples requisitos** si no cumple con los requisitos para la licencia. Si la edad es negativa o el usuario ingresó cualquier otro caracter que no sea s o n cuando pides la identificación, debe mostrar el mensaje **Respuesta incorrecta**
+**Salidas**
+Añade el código necesario para que el programa imprima:
+- **Trámite de licencia concedido** si la edad es mayor o igual a 18 y tiene identificación oficial
+- **No cumples requisitos** si no cumple con los requisitos para la licencia
+- Si la edad es negativa o el usuario ingresó cualquier otro caracter que no sea s o n cuando pides la identificación, debe mostrar el mensaje **Respuesta incorrecta**
 
 La salida del programa debe de ser exactamente de la siguiente forma:
 
-## Ejemplos    
+## Ejemplos
 Ejemplo 1
 
 ```plaintext
@@ -69,5 +74,6 @@ Respuesta incorrecta
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest --tb=short`,
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
 subela a tu repositorio en GitHub, con el proceso de commit + push.

@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
-## Definición del problema  
+## Definición del problema
 
 Escribe un programa que calcule el **IMC** (Índice de Masa Corporal) de una persona, el cual se utiliza para determinar si la proporción de peso y altura es adecuada. El IMC se puede calcular utilizando la siguiente fórmula:
 
@@ -25,24 +25,24 @@ indice = peso / altura^2
 
 Donde el peso debe darse en kilogramos y la altura en metros. La siguiente tabla muestra cómo se clasifican los diferentes rangos de índice:
 
-| Rango de índice |  Descripción  |  
-| :-------------: |:-------------:| 
+| Rango de índice |  Descripción  |
+| :-------------: |:-------------:|
 |índice < 20      | PESO BAJO     |
 |20 <= índice < 25| NORMAL        |
 |25 <= índice < 30| SOBREPESO     |
 |30 <= índice < 40| OBESIDAD      |
 |índice >= 40     | OBESIDAD MORBIDA|
 
-**Entradas**  
-Dos números **flotantes** (peso y altura) uno en cada renglón y recibidos en este orden.  
+**Entradas**
+Dos números **flotantes** (peso y altura) uno en cada renglón y recibidos en este orden.
 
-**Salidas**  
-Un **string** correspondiente a la descripción del índice de masa corporal, tal como se ve en la tabla, todo en mayúsculas.  
+**Salidas**
+Un **string** correspondiente a la descripción del índice de masa corporal, tal como se ve en la tabla, todo en mayúsculas.
 Debes de verificar que tanto el peso como la altura sean mayores a 0, en caso de que alguno sea 0 o menor, se debe mandar el siguiente mensaje de error: *Revisa tus datos, alguno de ellos es erróneo*.
- 
-## Ejemplos  
 
-Ejemplo 1    
+## Ejemplos
+
+Ejemplo 1
 
 ```plaintext
 Peso en kg: 53
@@ -61,3 +61,7 @@ Revisa tus datos, alguno de ellos es erróneo.
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
+
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

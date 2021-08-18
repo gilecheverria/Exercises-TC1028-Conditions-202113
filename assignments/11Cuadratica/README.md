@@ -56,7 +56,7 @@ Da el valor de b: 0
 Da el valor de c: 2
 No tiene solucion
 
-NOTA: Para mostrar la salida solamente muestra las variables en las que tienes el 
+NOTA: Para mostrar la salida solamente muestra las variables en las que tienes el
 resultado de los cálculos, no le apliques ningún formato.
 ```
 
@@ -65,5 +65,6 @@ resultado de los cálculos, no le apliques ningún formato.
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest` o `pytest --tb=short`,
-súbela a tu repositorio en GitHub, con el proceso de `commit + push`.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

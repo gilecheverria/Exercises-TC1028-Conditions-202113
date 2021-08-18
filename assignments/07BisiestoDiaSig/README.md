@@ -18,26 +18,26 @@ if __name__ == '__main__':
 
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
-## Definición del problema  
+## Definición del problema
 
 Escribe un programa que dada una fecha (año, mes y día), devuelva la fecha del día siguiente. Te recomiendo que antes de ponerte de codificar, verifiques todas las posibilidades que se pueden presentar.
 
-Este problema debe considerar la verificación de año bisiesto. Recuerda que el siguiente algoritmo se puede usar para determinar si un año determinado es bisiesto:  
+Este problema debe considerar la verificación de año bisiesto. Recuerda que el siguiente algoritmo se puede usar para determinar si un año determinado es bisiesto:
   * Los años bisiestos son cualquier año que es divisible por 4 (como 2012, 2016, etc).
   * Excepto si puede dividirse por 100, entonces no lo es (como 2100, 2200, etc).
   * A menos que pueda ser divisible por 400, como 2000, 2400.
 
 Para este ejercicio, no validaremos las entradas, confiaremos que el usuario ingresará una fecha válida.
 
-**Entradas**  
+**Entradas**
 Año, día y mes (**enteros positivos**) en ese orden.
 
-**Salidas**  
+**Salidas**
 Año, día y mes (**enteros positivos**) en ese orden que corresponde al día siguiente ingresado como entrada.
- 
-## Ejemplos  
 
-Ejemplo 1    
+## Ejemplos
+
+Ejemplo 1
 
 ```plaintext
 Año: 2015
@@ -75,5 +75,6 @@ Día: 31
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest --tb=short`,
-subela a tu repositorio en GitHub, con el proceso de commit + push
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

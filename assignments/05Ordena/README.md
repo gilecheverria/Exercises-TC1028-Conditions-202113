@@ -19,21 +19,21 @@ if __name__ == '__main__':
 
 Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
-## Definición del problema  
+## Definición del problema
 
 Realiza un programa que ordena en forma ascendente tres números enteros x, y, z.
 
 **NOTA:** NO puedes utilizar la función incorporada de Python: sort(), debes hacerlo con condicionales.
 
-**Entradas**  
+**Entradas**
 El programa va a preguntar por tres **números enteros** uno en cada renglón.
 
-**Salidas**  
+**Salidas**
 Los números de menor a mayor uno por renglón.
- 
-## Ejemplos  
 
-Ejemplo 1    
+## Ejemplos
+
+Ejemplo 1
 
 ```plaintext
 Ingresa el primer número: 5
@@ -58,5 +58,6 @@ Ingresa el tercer número: 12
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest --tb=short`,
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
 subela a tu repositorio en GitHub, con el proceso de commit + push.

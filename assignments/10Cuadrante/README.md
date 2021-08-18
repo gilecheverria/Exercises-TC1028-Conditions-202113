@@ -17,7 +17,7 @@ if __name__ == '__main__':
 La línea `#Escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que lea un número entero que se encuentre entre 0 y 360 que representa los grados del plano cartesiano y que muestre como resultado el número de cuadrante en donde se encuentra. 
+Escribe un programa que lea un número entero que se encuentre entre 0 y 360 que representa los grados del plano cartesiano y que muestre como resultado el número de cuadrante en donde se encuentra.
 En caso de que el grado caiga en un eje, tu programa debe mostrar la palabra `"eje"`.
 En caso de que el grado sea menor a cero o mayor a 360,  tu programa debe mostrar la palabra `"excede"`.
 
@@ -47,5 +47,6 @@ cuadrante 3
 este programa, pero es una buena práctica incluirla y quedará más
 claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest` o `pytest --tb=short`,
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
 subela a tu repositorio en GitHub, con el proceso de commit + push.
